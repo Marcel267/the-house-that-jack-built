@@ -1,0 +1,30 @@
+{
+  "name": "kata/the-house-that-jack-built",
+  "description": "Kata: The House that Jack built",
+  "type": "kata",
+  "keywords": [],
+  "authors": [
+    {
+      "name": "Sebastian Feldmann",
+      "email": "sf@sebastian-feldmann.info"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/sebastianfeldmann/kata.the-house-that-jack-built/issues"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kata\\Jack\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Kata\\Jack\\": "tests/unit/",
+      "CaptainHook\\App\\Integration\\": "tests/integration/"
+    }
+  },
+  "require": {
+    "php": "^8.0",
+    "phpunit/phpunit": "8.*"
+  }
+}
