@@ -11,7 +11,6 @@ class House
     {
     }
 
-    //test
     private array $parts = [
         'the house that Jack built',
         'the malt that lay in',
